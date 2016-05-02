@@ -134,6 +134,185 @@
             </entry>
             <entry>
               <net.rptools.maptool.model.GUID>
+                <baGUID>AAAAANGow3GGAAAAAAAAAA==</baGUID>
+              </net.rptools.maptool.model.GUID>
+              <net.rptools.maptool.model.Token>
+                <id>
+                  <baGUID>AAAAANGow3GGAAAAAAAAAA==</baGUID>
+                </id>
+                <beingImpersonated>false</beingImpersonated>
+                <exposedAreaGUID>
+                  <baGUID>AAAAAPaow3GMAAAAAAAAAA==</baGUID>
+                </exposedAreaGUID>
+                <imageAssetMap>
+                  <entry>
+                    <null/>
+                    <net.rptools.lib.MD5Key>
+                      <id>014aaa10a10b5ddcbbe006f3c22188c2</id>
+                    </net.rptools.lib.MD5Key>
+                  </entry>
+                </imageAssetMap>
+                <x>86</x>
+                <y>76</y>
+                <z>5</z>
+                <anchorX>0</anchorX>
+                <anchorY>0</anchorY>
+                <sizeScale>1.0</sizeScale>
+                <lastX>800</lastX>
+                <lastY>450</lastY>
+                <lastPath>
+                  <cellList class="linked-list">
+                    <net.rptools.maptool.model.ZonePoint>
+                      <x>800</x>
+                      <y>450</y>
+                    </net.rptools.maptool.model.ZonePoint>
+                    <net.rptools.maptool.model.ZonePoint>
+                      <x>86</x>
+                      <y>76</y>
+                    </net.rptools.maptool.model.ZonePoint>
+                  </cellList>
+                  <waypointList class="linked-list"/>
+                </lastPath>
+                <snapToScale>false</snapToScale>
+                <width>1360</width>
+                <height>880</height>
+                <scaleX>1.0</scaleX>
+                <scaleY>1.0</scaleY>
+                <sizeMap>
+                  <entry>
+                    <java-class>net.rptools.maptool.model.IsometricGrid</java-class>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>fwABAc9lFSoFAAAAKgABAQ==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                  </entry>
+                </sizeMap>
+                <snapToGrid>false</snapToGrid>
+                <isVisible>true</isVisible>
+                <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                <name>Denoleran Enclave 1</name>
+                <ownerType>0</ownerType>
+                <tokenShape>TOP_DOWN</tokenShape>
+                <tokenType>NPC</tokenType>
+                <layer>BACKGROUND</layer>
+                <propertyType>Basic</propertyType>
+                <isFlippedX>false</isFlippedX>
+                <isFlippedY>false</isFlippedY>
+                <hasSight>false</hasSight>
+                <state/>
+              </net.rptools.maptool.model.Token>
+            </entry>
+            <entry>
+              <net.rptools.maptool.model.GUID>
+                <baGUID>AAAAADqQw3FuAAAAAAAAAA==</baGUID>
+              </net.rptools.maptool.model.GUID>
+              <net.rptools.maptool.model.Token>
+                <id>
+                  <baGUID>AAAAADqQw3FuAAAAAAAAAA==</baGUID>
+                </id>
+                <beingImpersonated>false</beingImpersonated>
+                <exposedAreaGUID>
+                  <baGUID>AAAAAAWWw3F0AAAAAAAAAA==</baGUID>
+                </exposedAreaGUID>
+                <imageAssetMap>
+                  <entry>
+                    <null/>
+                    <net.rptools.lib.MD5Key>
+                      <id>014aaa10a10b5ddcbbe006f3c22188c2</id>
+                    </net.rptools.lib.MD5Key>
+                  </entry>
+                </imageAssetMap>
+                <x>800</x>
+                <y>350</y>
+                <z>4</z>
+                <anchorX>0</anchorX>
+                <anchorY>0</anchorY>
+                <sizeScale>1.0</sizeScale>
+                <lastX>550</lastX>
+                <lastY>325</lastY>
+                <lastPath>
+                  <cellList class="linked-list">
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>12</x>
+                      <y>1</y>
+                      <hScore>0.0</hScore>
+                      <gScore>0.0</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>13</x>
+                      <y>0</y>
+                      <parent>
+                        <x>12</x>
+                        <y>1</y>
+                        <hScore>0.0</hScore>
+                        <gScore>0.0</gScore>
+                      </parent>
+                      <hScore>2.23606797749979</hScore>
+                      <gScore>1.4142135623730951</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>14</x>
+                      <y>0</y>
+                      <parent>
+                        <x>13</x>
+                        <y>0</y>
+                        <parent reference="../../../net.rptools.maptool.client.walker.astar.AStarCellPoint[2]/parent"/>
+                        <hScore>2.23606797749979</hScore>
+                        <gScore>1.4142135623730951</gScore>
+                      </parent>
+                      <hScore>1.4142135623730951</hScore>
+                      <gScore>2.23606797749979</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.model.CellPoint>
+                      <x>15</x>
+                      <y>-1</y>
+                    </net.rptools.maptool.model.CellPoint>
+                  </cellList>
+                  <waypointList class="linked-list">
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>12</x>
+                      <y>1</y>
+                      <hScore>0.0</hScore>
+                      <gScore>0.0</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.model.CellPoint>
+                      <x>15</x>
+                      <y>-1</y>
+                    </net.rptools.maptool.model.CellPoint>
+                  </waypointList>
+                </lastPath>
+                <snapToScale>true</snapToScale>
+                <width>1360</width>
+                <height>880</height>
+                <scaleX>1.0</scaleX>
+                <scaleY>1.0</scaleY>
+                <sizeMap>
+                  <entry>
+                    <java-class>net.rptools.maptool.model.IsometricGrid</java-class>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>fwABAc9lFSoFAAAAKgABAQ==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                  </entry>
+                </sizeMap>
+                <snapToGrid>true</snapToGrid>
+                <isVisible>true</isVisible>
+                <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                <name>Denoleran Enclave</name>
+                <ownerType>0</ownerType>
+                <tokenShape>SQUARE</tokenShape>
+                <tokenType>NPC</tokenType>
+                <layer>TOKEN</layer>
+                <propertyType>Basic</propertyType>
+                <isFlippedX>false</isFlippedX>
+                <isFlippedY>false</isFlippedY>
+                <hasSight>false</hasSight>
+                <state/>
+                <propertyMapCI>
+                  <store/>
+                </propertyMapCI>
+              </net.rptools.maptool.model.Token>
+            </entry>
+            <entry>
+              <net.rptools.maptool.model.GUID>
                 <baGUID>AAAAACHpu3ErAAAAAAAAAA==</baGUID>
               </net.rptools.maptool.model.GUID>
               <net.rptools.maptool.model.Token>
@@ -188,10 +367,162 @@
                 <state/>
               </net.rptools.maptool.model.Token>
             </entry>
+            <entry>
+              <net.rptools.maptool.model.GUID>
+                <baGUID>AAAAAINuw3FSAAAAAAAAAA==</baGUID>
+              </net.rptools.maptool.model.GUID>
+              <net.rptools.maptool.model.Token>
+                <id>
+                  <baGUID>AAAAAINuw3FSAAAAAAAAAA==</baGUID>
+                </id>
+                <beingImpersonated>false</beingImpersonated>
+                <exposedAreaGUID>
+                  <baGUID>AAAAAE11w3FYAAAAAAAAAA==</baGUID>
+                </exposedAreaGUID>
+                <imageAssetMap>
+                  <entry>
+                    <null/>
+                    <net.rptools.lib.MD5Key>
+                      <id>1c2ba57749bd0b2c1ee37cb6ccd4787c</id>
+                    </net.rptools.lib.MD5Key>
+                  </entry>
+                </imageAssetMap>
+                <x>750</x>
+                <y>225</y>
+                <z>3</z>
+                <anchorX>0</anchorX>
+                <anchorY>0</anchorY>
+                <sizeScale>1.0</sizeScale>
+                <lastX>250</lastX>
+                <lastY>275</lastY>
+                <lastPath>
+                  <cellList class="linked-list">
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>8</x>
+                      <y>3</y>
+                      <hScore>0.0</hScore>
+                      <gScore>0.0</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>9</x>
+                      <y>2</y>
+                      <parent>
+                        <x>8</x>
+                        <y>3</y>
+                        <hScore>0.0</hScore>
+                        <gScore>0.0</gScore>
+                      </parent>
+                      <hScore>5.830951894845301</hScore>
+                      <gScore>1.4142135623730951</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>9</x>
+                      <y>1</y>
+                      <parent>
+                        <x>9</x>
+                        <y>2</y>
+                        <parent reference="../../../net.rptools.maptool.client.walker.astar.AStarCellPoint[2]/parent"/>
+                        <hScore>5.830951894845301</hScore>
+                        <gScore>1.4142135623730951</gScore>
+                      </parent>
+                      <hScore>5.0</hScore>
+                      <gScore>2.23606797749979</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>10</x>
+                      <y>0</y>
+                      <parent>
+                        <x>9</x>
+                        <y>1</y>
+                        <parent reference="../../../net.rptools.maptool.client.walker.astar.AStarCellPoint[3]/parent"/>
+                        <hScore>5.0</hScore>
+                        <gScore>2.23606797749979</gScore>
+                      </parent>
+                      <hScore>3.605551275463989</hScore>
+                      <gScore>3.605551275463989</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>11</x>
+                      <y>-1</y>
+                      <parent>
+                        <x>10</x>
+                        <y>0</y>
+                        <parent reference="../../../net.rptools.maptool.client.walker.astar.AStarCellPoint[4]/parent"/>
+                        <hScore>3.605551275463989</hScore>
+                        <gScore>3.605551275463989</gScore>
+                      </parent>
+                      <hScore>2.23606797749979</hScore>
+                      <gScore>5.0</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>11</x>
+                      <y>-2</y>
+                      <parent>
+                        <x>11</x>
+                        <y>-1</y>
+                        <parent reference="../../../net.rptools.maptool.client.walker.astar.AStarCellPoint[5]/parent"/>
+                        <hScore>2.23606797749979</hScore>
+                        <gScore>5.0</gScore>
+                      </parent>
+                      <hScore>1.4142135623730951</hScore>
+                      <gScore>5.830951894845301</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.model.CellPoint>
+                      <x>12</x>
+                      <y>-3</y>
+                    </net.rptools.maptool.model.CellPoint>
+                  </cellList>
+                  <waypointList class="linked-list">
+                    <net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                      <x>8</x>
+                      <y>3</y>
+                      <hScore>0.0</hScore>
+                      <gScore>0.0</gScore>
+                    </net.rptools.maptool.client.walker.astar.AStarCellPoint>
+                    <net.rptools.maptool.model.CellPoint>
+                      <x>12</x>
+                      <y>-3</y>
+                    </net.rptools.maptool.model.CellPoint>
+                  </waypointList>
+                </lastPath>
+                <snapToScale>true</snapToScale>
+                <width>65</width>
+                <height>69</height>
+                <scaleX>1.0</scaleX>
+                <scaleY>1.0</scaleY>
+                <sizeMap>
+                  <entry>
+                    <java-class>net.rptools.maptool.model.IsometricGrid</java-class>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>fwABAc9lFSoFAAAAKgABAQ==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                  </entry>
+                </sizeMap>
+                <snapToGrid>true</snapToGrid>
+                <isVisible>true</isVisible>
+                <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                <name>20-10</name>
+                <ownerType>0</ownerType>
+                <tokenShape>CIRCLE</tokenShape>
+                <tokenType>NPC</tokenType>
+                <layer>TOKEN</layer>
+                <propertyType>Basic</propertyType>
+                <isFlippedX>false</isFlippedX>
+                <isFlippedY>false</isFlippedY>
+                <hasSight>false</hasSight>
+                <state/>
+                <propertyMapCI>
+                  <store/>
+                </propertyMapCI>
+              </net.rptools.maptool.model.Token>
+            </entry>
           </tokenMap>
           <exposedAreaMeta/>
           <tokenOrderedList class="linked-list">
             <net.rptools.maptool.model.Token reference="../../tokenMap/entry/net.rptools.maptool.model.Token"/>
+            <net.rptools.maptool.model.Token reference="../../tokenMap/entry[4]/net.rptools.maptool.model.Token"/>
+            <net.rptools.maptool.model.Token reference="../../tokenMap/entry[5]/net.rptools.maptool.model.Token"/>
+            <net.rptools.maptool.model.Token reference="../../tokenMap/entry[3]/net.rptools.maptool.model.Token"/>
             <net.rptools.maptool.model.Token reference="../../tokenMap/entry[2]/net.rptools.maptool.model.Token"/>
           </tokenOrderedList>
           <initiativeList>
@@ -950,11 +1281,19 @@
   </campaign>
   <assetMap>
     <entry>
+      <net.rptools.lib.MD5Key reference="../../../campaign/zones/entry/net.rptools.maptool.model.Zone/tokenMap/entry[5]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
+      <null/>
+    </entry>
+    <entry>
       <net.rptools.lib.MD5Key reference="../../../campaign/zones/entry/net.rptools.maptool.model.Zone/backgroundPaint/assetId"/>
       <null/>
     </entry>
     <entry>
-      <net.rptools.lib.MD5Key reference="../../../campaign/zones/entry/net.rptools.maptool.model.Zone/tokenMap/entry[2]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
+      <net.rptools.lib.MD5Key reference="../../../campaign/zones/entry/net.rptools.maptool.model.Zone/tokenMap/entry[4]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
+      <null/>
+    </entry>
+    <entry>
+      <net.rptools.lib.MD5Key reference="../../../campaign/zones/entry/net.rptools.maptool.model.Zone/tokenMap/entry[3]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
       <null/>
     </entry>
     <entry>
