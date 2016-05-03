@@ -42,8 +42,8 @@ def main():
         g_cmd = subprocess.Popen('git pull', shell=True, cwd=campaign_base_dir)
         g_cmd.wait()
         tmp_archive_path = os.path.join(args.working_dir, '_'.join([args.game_name, args.campaign]))
-        LOGGER.info("Create temporary archive (%s.cmpgn)" % (tmp_archive_path))
-        shutil.make_archive(tmp_archive_path, 'zip', campaign_base_dir, logger=LOGGER)
+        LOGGER.info("Create temporary archive: %s.cmpgn" % (tmp_archive_path))
+        shutil.make_archive(tmp_archive_path, 'zip', campaign_base_dir)
       
         try:
             os.rename(tmp_archive_path + '.zip', tmp_archive_path + '.cmpgn')
