@@ -59,7 +59,7 @@ def main():
     # TODO:  
     # - Launch maptool with campaing file.
     # - Uncompress file in repo
-    # - git add -A & git push
+    # - git add -A & git push
     # - Delete tmp archive file
       
 
