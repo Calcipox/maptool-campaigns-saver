@@ -123,19 +123,23 @@
                           </net.rptools.lib.MD5Key>
                         </entry>
                       </imageAssetMap>
-                      <x>769</x>
-                      <y>278</y>
+                      <x>758</x>
+                      <y>294</y>
                       <z>4</z>
                       <anchorX>0</anchorX>
                       <anchorY>0</anchorY>
                       <sizeScale>1.0</sizeScale>
-                      <lastX>769</lastX>
-                      <lastY>278</lastY>
+                      <lastX>814</lastX>
+                      <lastY>305</lastY>
                       <lastPath>
                         <cellList class="linked-list">
                           <net.rptools.maptool.model.ZonePoint>
-                            <x>769</x>
-                            <y>278</y>
+                            <x>814</x>
+                            <y>305</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>758</x>
+                            <y>294</y>
                           </net.rptools.maptool.model.ZonePoint>
                         </cellList>
                         <waypointList class="linked-list"/>
@@ -253,41 +257,41 @@
                   </entry>
                   <entry>
                     <net.rptools.maptool.model.GUID>
-                      <baGUID>AAAAAIhpzkRwCgAAAAAAAA==</baGUID>
+                      <baGUID>AAAAAPXuoHRLAAAAAAAAAA==</baGUID>
                     </net.rptools.maptool.model.GUID>
                     <net.rptools.maptool.model.Token>
                       <id>
-                        <baGUID>AAAAAIhpzkRwCgAAAAAAAA==</baGUID>
+                        <baGUID>AAAAAPXuoHRLAAAAAAAAAA==</baGUID>
                       </id>
                       <beingImpersonated>false</beingImpersonated>
                       <exposedAreaGUID>
-                        <baGUID>AAAAAEh6zkR2CgAAAAAAAA==</baGUID>
+                        <baGUID>AAAAAB4FoXRRAAAAAAAAAA==</baGUID>
                       </exposedAreaGUID>
                       <imageAssetMap>
                         <entry>
                           <null/>
                           <net.rptools.lib.MD5Key>
-                            <id>f663dd44912f55c74504b16d2f629b43</id>
+                            <id>55def222b1ac046aed5f3461eb9780a2</id>
                           </net.rptools.lib.MD5Key>
                         </entry>
                       </imageAssetMap>
-                      <x>737</x>
-                      <y>381</y>
-                      <z>3</z>
+                      <x>740</x>
+                      <y>360</y>
+                      <z>6</z>
                       <anchorX>0</anchorX>
                       <anchorY>0</anchorY>
                       <sizeScale>1.0</sizeScale>
-                      <lastX>754</lastX>
-                      <lastY>310</lastY>
+                      <lastX>777</lastX>
+                      <lastY>508</lastY>
                       <lastPath>
                         <cellList class="linked-list">
                           <net.rptools.maptool.model.ZonePoint>
-                            <x>754</x>
-                            <y>310</y>
+                            <x>777</x>
+                            <y>508</y>
                           </net.rptools.maptool.model.ZonePoint>
                           <net.rptools.maptool.model.ZonePoint>
-                            <x>737</x>
-                            <y>381</y>
+                            <x>740</x>
+                            <y>360</y>
                           </net.rptools.maptool.model.ZonePoint>
                         </cellList>
                         <waypointList class="linked-list"/>
@@ -299,13 +303,13 @@
                       <scaleY>1.0</scaleY>
                       <sizeMap>
                         <entry>
-                          <java-class>net.rptools.maptool.model.SquareGrid</java-class>
+                          <java-class>net.rptools.maptool.model.GridlessGrid</java-class>
                           <net.rptools.maptool.model.GUID>
-                            <baGUID>fwABAc9lFSoFAAAAKgABAQ==</baGUID>
+                            <baGUID>wKgPDr7+0KIMAAAAgIAODg==</baGUID>
                           </net.rptools.maptool.model.GUID>
                         </entry>
                       </sizeMap>
-                      <snapToGrid>true</snapToGrid>
+                      <snapToGrid>false</snapToGrid>
                       <isVisible>true</isVisible>
                       <visibleOnlyToOwner>false</visibleOnlyToOwner>
                       <name>Sachiko</name>
@@ -406,6 +410,14 @@
                     </net.rptools.maptool.model.ExposedAreaMetaData>
                   </entry>
                   <entry>
+                    <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry[4]/net.rptools.maptool.model.Token/exposedAreaGUID"/>
+                    <net.rptools.maptool.model.ExposedAreaMetaData>
+                      <exposedAreaHistory>
+                        <curves/>
+                      </exposedAreaHistory>
+                    </net.rptools.maptool.model.ExposedAreaMetaData>
+                  </entry>
+                  <entry>
                     <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry[2]/net.rptools.maptool.model.Token/exposedAreaGUID"/>
                     <net.rptools.maptool.model.ExposedAreaMetaData>
                       <exposedAreaHistory>
@@ -448,7 +460,9 @@
                     </net.rptools.maptool.model.ExposedAreaMetaData>
                   </entry>
                   <entry>
-                    <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry[4]/net.rptools.maptool.model.Token/exposedAreaGUID"/>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAEh6zkR2CgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
                     <net.rptools.maptool.model.ExposedAreaMetaData>
                       <exposedAreaHistory>
                         <curves>
@@ -483,9 +497,9 @@
                 <tokenOrderedList class="linked-list">
                   <net.rptools.maptool.model.Token reference="../../tokenMap/entry/net.rptools.maptool.model.Token"/>
                   <net.rptools.maptool.model.Token reference="../../tokenMap/entry[3]/net.rptools.maptool.model.Token"/>
-                  <net.rptools.maptool.model.Token reference="../../tokenMap/entry[4]/net.rptools.maptool.model.Token"/>
                   <net.rptools.maptool.model.Token reference="../../tokenMap/entry[2]/net.rptools.maptool.model.Token"/>
                   <net.rptools.maptool.model.Token reference="../../tokenMap/entry[5]/net.rptools.maptool.model.Token"/>
+                  <net.rptools.maptool.model.Token reference="../../tokenMap/entry[4]/net.rptools.maptool.model.Token"/>
                 </tokenOrderedList>
                 <initiativeList>
                   <tokens/>
@@ -732,6 +746,1055 @@
                 <name>scierie_des_septs</name>
                 <isVisible>true</isVisible>
                 <visionType>DAY</visionType>
+                <height>0</height>
+                <width>0</width>
+              </net.rptools.maptool.model.Zone>
+            </entry>
+            <entry>
+              <net.rptools.maptool.model.GUID>
+                <baGUID>AAAAAIpEonRwAAAAAAAAAA==</baGUID>
+              </net.rptools.maptool.model.GUID>
+              <net.rptools.maptool.model.Zone>
+                <creationTime>1470835606666</creationTime>
+                <id reference="../../net.rptools.maptool.model.GUID"/>
+                <grid class="net.rptools.maptool.model.GridlessGrid">
+                  <offsetX>0</offsetX>
+                  <offsetY>0</offsetY>
+                  <size>50</size>
+                  <zone reference="../.."/>
+                </grid>
+                <gridColor>-16777216</gridColor>
+                <imageScaleX>1.0</imageScaleX>
+                <imageScaleY>1.0</imageScaleY>
+                <tokenVisionDistance>1000</tokenVisionDistance>
+                <unitsPerCell>5</unitsPerCell>
+                <drawables class="linked-list">
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.LineSegment">
+                      <id>
+                        <baGUID>AAAAAJa0pHRzAAAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <points>
+                        <java.awt.Point>
+                          <x>333</x>
+                          <y>330</y>
+                        </java.awt.Point>
+                        <java.awt.Point>
+                          <x>333</x>
+                          <y>330</y>
+                        </java.awt.Point>
+                      </points>
+                      <width>3.0</width>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-16777216</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAMWxqHSfAQAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.Rectangle">
+                        <x>759</x>
+                        <y>701</y>
+                        <width>4</width>
+                        <height>4</height>
+                      </shape>
+                      <useAntiAliasing>false</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAKkTqXTXAQAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.Rectangle">
+                        <x>858</x>
+                        <y>798</y>
+                        <width>4</width>
+                        <height>4</height>
+                      </shape>
+                      <useAntiAliasing>false</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAADzgsXRDBQAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>765.0</x>
+                        <y>956.0</y>
+                        <width>9.0</width>
+                        <height>10.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAMPEs3RKBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>859.0</x>
+                        <y>796.0</y>
+                        <width>16.0</width>
+                        <height>18.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAOfKs3RfBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>854.0</x>
+                        <y>794.0</y>
+                        <width>25.0</width>
+                        <height>17.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAFnSs3R4BgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>752.0</x>
+                        <y>701.0</y>
+                        <width>27.0</width>
+                        <height>13.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAM/as3SQBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>756.0</x>
+                        <y>700.0</y>
+                        <width>27.0</width>
+                        <height>13.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAD3ls3SgBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>758.0</x>
+                        <y>699.0</y>
+                        <width>29.0</width>
+                        <height>9.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAEEAtHS3BgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>TOKEN</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>760.0</x>
+                        <y>951.0</y>
+                        <width>23.0</width>
+                        <height>19.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                </drawables>
+                <gmDrawables class="linked-list"/>
+                <objectDrawables class="linked-list"/>
+                <backgroundDrawables class="linked-list">
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAANGns3QPBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>BACKGROUND</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>861.0</x>
+                        <y>800.0</y>
+                        <width>1.0</width>
+                        <height>8.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAN2ts3QjBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>BACKGROUND</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>851.0</x>
+                        <y>800.0</y>
+                        <width>40.0</width>
+                        <height>21.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAE26s3QzBgAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>BACKGROUND</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>856.0</x>
+                        <y>800.0</y>
+                        <width>36.0</width>
+                        <height>4.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>true</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAH21tHQNBwAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>BACKGROUND</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>849.0</x>
+                        <y>797.0</y>
+                        <width>9.0</width>
+                        <height>10.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAAAnctHQmBwAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>BACKGROUND</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>760.0</x>
+                        <y>705.0</y>
+                        <width>9.0</width>
+                        <height>9.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                  <net.rptools.maptool.model.drawing.DrawnElement>
+                    <drawable class="net.rptools.maptool.model.drawing.ShapeDrawable">
+                      <id>
+                        <baGUID>AAAAADMltXRZBwAAAAAAAA==</baGUID>
+                      </id>
+                      <layer>BACKGROUND</layer>
+                      <shape class="java.awt.geom.Ellipse2D$Float">
+                        <x>766.0</x>
+                        <y>955.0</y>
+                        <width>10.0</width>
+                        <height>10.0</height>
+                      </shape>
+                      <useAntiAliasing>true</useAntiAliasing>
+                    </drawable>
+                    <pen>
+                      <foregroundMode>0</foregroundMode>
+                      <paint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </paint>
+                      <backgroundMode>0</backgroundMode>
+                      <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                        <color>-1</color>
+                      </backgroundPaint>
+                      <thickness>3.0</thickness>
+                      <eraser>false</eraser>
+                      <opacity>1.0</opacity>
+                      <color>0</color>
+                      <backgroundColor>0</backgroundColor>
+                    </pen>
+                  </net.rptools.maptool.model.drawing.DrawnElement>
+                </backgroundDrawables>
+                <labels class="linked-hash-map">
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAK3OpHSGAAAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>District d&apos;Albâtre</label>
+                      <x>488</x>
+                      <y>326</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAKOnpXSWAAAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>District Central</label>
+                      <x>445</x>
+                      <y>452</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAODdpXSdAAAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Pied du Pont</label>
+                      <x>323</x>
+                      <y>606</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAF0OpnSkAAAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Naos</label>
+                      <x>826</x>
+                      <y>461</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAF45qnSyAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Maison Thorgis</label>
+                      <x>767</x>
+                      <y>686</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAHRtqnS8AgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Tonneau de Saphir</label>
+                      <x>863</x>
+                      <y>780</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAN6ZqnTDAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Siège des Veilleurs</label>
+                      <x>772</x>
+                      <y>939</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAALDgqnTKAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Pied de la Falaise</label>
+                      <x>752</x>
+                      <y>748</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAHQIq3TRAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Docks</label>
+                      <x>604</x>
+                      <y>814</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAPVDq3TYAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Pointe du Phare</label>
+                      <x>565</x>
+                      <y>1013</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAA96q3TfAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Ordellie</label>
+                      <x>640</x>
+                      <y>1384</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAJkNrHTmAgAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Label>
+                      <id reference="../../net.rptools.maptool.model.GUID"/>
+                      <label>Pierre d&apos;Angle</label>
+                      <x>727</x>
+                      <y>1031</y>
+                      <showBackground>true</showBackground>
+                      <foregroundColor>-16777216</foregroundColor>
+                    </net.rptools.maptool.model.Label>
+                  </entry>
+                </labels>
+                <tokenMap>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAPKsrnQ2AwAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Token>
+                      <id>
+                        <baGUID>AAAAAPKsrnQ2AwAAAAAAAA==</baGUID>
+                      </id>
+                      <beingImpersonated>false</beingImpersonated>
+                      <exposedAreaGUID>
+                        <baGUID>AAAAAGe0rnQ8AwAAAAAAAA==</baGUID>
+                      </exposedAreaGUID>
+                      <imageAssetMap>
+                        <entry>
+                          <null/>
+                          <net.rptools.lib.MD5Key>
+                            <id>39f4059f940c223bb896d116ff33fe65</id>
+                          </net.rptools.lib.MD5Key>
+                        </entry>
+                      </imageAssetMap>
+                      <x>730</x>
+                      <y>329</y>
+                      <z>3</z>
+                      <anchorX>0</anchorX>
+                      <anchorY>0</anchorY>
+                      <sizeScale>1.0</sizeScale>
+                      <lastX>750</lastX>
+                      <lastY>350</lastY>
+                      <lastPath>
+                        <cellList class="linked-list">
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>750</x>
+                            <y>350</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>730</x>
+                            <y>329</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                        </cellList>
+                        <waypointList class="linked-list"/>
+                      </lastPath>
+                      <snapToScale>true</snapToScale>
+                      <width>128</width>
+                      <height>128</height>
+                      <scaleX>1.0</scaleX>
+                      <scaleY>1.0</scaleY>
+                      <sizeMap>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.GridlessGrid</java-class>
+                          <net.rptools.maptool.model.GUID>
+                            <baGUID>wKgPDr7+0KIJAAAAgIAODg==</baGUID>
+                          </net.rptools.maptool.model.GUID>
+                        </entry>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.SquareGrid</java-class>
+                          <net.rptools.maptool.model.GUID>
+                            <baGUID>fwABAc5lFSoDAAAAKgABAA==</baGUID>
+                          </net.rptools.maptool.model.GUID>
+                        </entry>
+                      </sizeMap>
+                      <snapToGrid>true</snapToGrid>
+                      <isVisible>true</isVisible>
+                      <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                      <name>Callirhoe</name>
+                      <ownerType>0</ownerType>
+                      <tokenShape>CIRCLE</tokenShape>
+                      <tokenType>PC</tokenType>
+                      <layer>TOKEN</layer>
+                      <propertyType>Basic</propertyType>
+                      <isFlippedX>false</isFlippedX>
+                      <isFlippedY>false</isFlippedY>
+                      <hasSight>true</hasSight>
+                      <state/>
+                      <propertyMapCI>
+                        <store/>
+                      </propertyMapCI>
+                      <macroPropertiesMap/>
+                      <speechMap/>
+                    </net.rptools.maptool.model.Token>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAGFIsHSoBAAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Token>
+                      <id>
+                        <baGUID>AAAAAGFIsHSoBAAAAAAAAA==</baGUID>
+                      </id>
+                      <beingImpersonated>false</beingImpersonated>
+                      <exposedAreaGUID>
+                        <baGUID>AAAAAHhWsHSuBAAAAAAAAA==</baGUID>
+                      </exposedAreaGUID>
+                      <imageAssetMap>
+                        <entry>
+                          <null/>
+                          <net.rptools.lib.MD5Key>
+                            <id>4a34190e2281be6d00deb397c4320a68</id>
+                          </net.rptools.lib.MD5Key>
+                        </entry>
+                      </imageAssetMap>
+                      <x>766</x>
+                      <y>915</y>
+                      <z>4</z>
+                      <anchorX>0</anchorX>
+                      <anchorY>0</anchorY>
+                      <sizeScale>1.0</sizeScale>
+                      <lastX>765</lastX>
+                      <lastY>899</lastY>
+                      <lastPath>
+                        <cellList class="linked-list">
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>765</x>
+                            <y>899</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>766</x>
+                            <y>915</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                        </cellList>
+                        <waypointList class="linked-list"/>
+                      </lastPath>
+                      <snapToScale>true</snapToScale>
+                      <width>128</width>
+                      <height>128</height>
+                      <scaleX>1.0</scaleX>
+                      <scaleY>1.0</scaleY>
+                      <sizeMap>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.GridlessGrid</java-class>
+                          <net.rptools.maptool.model.GUID reference="../../../../../entry/net.rptools.maptool.model.Token/sizeMap/entry/net.rptools.maptool.model.GUID"/>
+                        </entry>
+                      </sizeMap>
+                      <snapToGrid>false</snapToGrid>
+                      <isVisible>true</isVisible>
+                      <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                      <name>Bo</name>
+                      <ownerType>0</ownerType>
+                      <tokenShape>CIRCLE</tokenShape>
+                      <tokenType>PC</tokenType>
+                      <layer>TOKEN</layer>
+                      <propertyType>Basic</propertyType>
+                      <isFlippedX>false</isFlippedX>
+                      <isFlippedY>false</isFlippedY>
+                      <hasSight>true</hasSight>
+                      <state/>
+                      <propertyMapCI>
+                        <store/>
+                      </propertyMapCI>
+                      <macroPropertiesMap/>
+                      <speechMap/>
+                    </net.rptools.maptool.model.Token>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAHWBrnQlAwAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Token>
+                      <id>
+                        <baGUID>AAAAAHWBrnQlAwAAAAAAAA==</baGUID>
+                      </id>
+                      <beingImpersonated>false</beingImpersonated>
+                      <exposedAreaGUID>
+                        <baGUID>AAAAAIuNrnQrAwAAAAAAAA==</baGUID>
+                      </exposedAreaGUID>
+                      <imageAssetMap>
+                        <entry>
+                          <null/>
+                          <net.rptools.lib.MD5Key>
+                            <id>55def222b1ac046aed5f3461eb9780a2</id>
+                          </net.rptools.lib.MD5Key>
+                        </entry>
+                      </imageAssetMap>
+                      <x>735</x>
+                      <y>302</y>
+                      <z>2</z>
+                      <anchorX>0</anchorX>
+                      <anchorY>0</anchorY>
+                      <sizeScale>1.0</sizeScale>
+                      <lastX>750</lastX>
+                      <lastY>300</lastY>
+                      <lastPath>
+                        <cellList class="linked-list">
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>750</x>
+                            <y>300</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>735</x>
+                            <y>302</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                        </cellList>
+                        <waypointList class="linked-list"/>
+                      </lastPath>
+                      <snapToScale>true</snapToScale>
+                      <width>128</width>
+                      <height>128</height>
+                      <scaleX>1.0</scaleX>
+                      <scaleY>1.0</scaleY>
+                      <sizeMap>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.GridlessGrid</java-class>
+                          <net.rptools.maptool.model.GUID reference="../../../../../entry/net.rptools.maptool.model.Token/sizeMap/entry/net.rptools.maptool.model.GUID"/>
+                        </entry>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.SquareGrid</java-class>
+                          <net.rptools.maptool.model.GUID reference="../../../../../entry/net.rptools.maptool.model.Token/sizeMap/entry[2]/net.rptools.maptool.model.GUID"/>
+                        </entry>
+                      </sizeMap>
+                      <snapToGrid>true</snapToGrid>
+                      <isVisible>true</isVisible>
+                      <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                      <name>Sachiko</name>
+                      <ownerType>0</ownerType>
+                      <tokenShape>CIRCLE</tokenShape>
+                      <tokenType>PC</tokenType>
+                      <layer>TOKEN</layer>
+                      <propertyType>Basic</propertyType>
+                      <isFlippedX>false</isFlippedX>
+                      <isFlippedY>false</isFlippedY>
+                      <hasSight>true</hasSight>
+                      <state/>
+                      <propertyMapCI>
+                        <store/>
+                      </propertyMapCI>
+                      <macroPropertiesMap/>
+                      <speechMap/>
+                    </net.rptools.maptool.model.Token>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID>
+                      <baGUID>AAAAAFIcrnQUAwAAAAAAAA==</baGUID>
+                    </net.rptools.maptool.model.GUID>
+                    <net.rptools.maptool.model.Token>
+                      <id>
+                        <baGUID>AAAAAFIcrnQUAwAAAAAAAA==</baGUID>
+                      </id>
+                      <beingImpersonated>false</beingImpersonated>
+                      <exposedAreaGUID>
+                        <baGUID>AAAAAFArrnQaAwAAAAAAAA==</baGUID>
+                      </exposedAreaGUID>
+                      <imageAssetMap>
+                        <entry>
+                          <null/>
+                          <net.rptools.lib.MD5Key>
+                            <id>8f21bc4ce3a1314d0398273861bf293b</id>
+                          </net.rptools.lib.MD5Key>
+                        </entry>
+                      </imageAssetMap>
+                      <x>712</x>
+                      <y>306</y>
+                      <z>1</z>
+                      <anchorX>0</anchorX>
+                      <anchorY>0</anchorY>
+                      <sizeScale>1.0</sizeScale>
+                      <lastX>707</lastX>
+                      <lastY>321</lastY>
+                      <lastPath>
+                        <cellList class="linked-list">
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>707</x>
+                            <y>321</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                          <net.rptools.maptool.model.ZonePoint>
+                            <x>712</x>
+                            <y>306</y>
+                          </net.rptools.maptool.model.ZonePoint>
+                        </cellList>
+                        <waypointList class="linked-list"/>
+                      </lastPath>
+                      <snapToScale>true</snapToScale>
+                      <width>128</width>
+                      <height>128</height>
+                      <scaleX>1.0</scaleX>
+                      <scaleY>1.0</scaleY>
+                      <sizeMap>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.GridlessGrid</java-class>
+                          <net.rptools.maptool.model.GUID reference="../../../../../entry/net.rptools.maptool.model.Token/sizeMap/entry/net.rptools.maptool.model.GUID"/>
+                        </entry>
+                        <entry>
+                          <java-class>net.rptools.maptool.model.SquareGrid</java-class>
+                          <net.rptools.maptool.model.GUID reference="../../../../../entry/net.rptools.maptool.model.Token/sizeMap/entry[2]/net.rptools.maptool.model.GUID"/>
+                        </entry>
+                      </sizeMap>
+                      <snapToGrid>true</snapToGrid>
+                      <isVisible>true</isVisible>
+                      <visibleOnlyToOwner>false</visibleOnlyToOwner>
+                      <name>Taake</name>
+                      <ownerType>0</ownerType>
+                      <tokenShape>CIRCLE</tokenShape>
+                      <tokenType>PC</tokenType>
+                      <layer>TOKEN</layer>
+                      <propertyType>Basic</propertyType>
+                      <isFlippedX>false</isFlippedX>
+                      <isFlippedY>false</isFlippedY>
+                      <hasSight>true</hasSight>
+                      <state/>
+                      <propertyMapCI>
+                        <store/>
+                      </propertyMapCI>
+                      <macroPropertiesMap/>
+                      <speechMap/>
+                    </net.rptools.maptool.model.Token>
+                  </entry>
+                </tokenMap>
+                <exposedAreaMeta>
+                  <entry>
+                    <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry[4]/net.rptools.maptool.model.Token/exposedAreaGUID"/>
+                    <net.rptools.maptool.model.ExposedAreaMetaData>
+                      <exposedAreaHistory>
+                        <curves reference="../../../../../../../entry/net.rptools.maptool.model.Zone/exposedAreaMeta/entry[2]/net.rptools.maptool.model.ExposedAreaMetaData/exposedAreaHistory/curves"/>
+                      </exposedAreaHistory>
+                    </net.rptools.maptool.model.ExposedAreaMetaData>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry/net.rptools.maptool.model.Token/exposedAreaGUID"/>
+                    <net.rptools.maptool.model.ExposedAreaMetaData>
+                      <exposedAreaHistory>
+                        <curves reference="../../../../../../../entry/net.rptools.maptool.model.Zone/exposedAreaMeta/entry[2]/net.rptools.maptool.model.ExposedAreaMetaData/exposedAreaHistory/curves"/>
+                      </exposedAreaHistory>
+                    </net.rptools.maptool.model.ExposedAreaMetaData>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry[3]/net.rptools.maptool.model.Token/exposedAreaGUID"/>
+                    <net.rptools.maptool.model.ExposedAreaMetaData>
+                      <exposedAreaHistory>
+                        <curves reference="../../../../../../../entry/net.rptools.maptool.model.Zone/exposedAreaMeta/entry[2]/net.rptools.maptool.model.ExposedAreaMetaData/exposedAreaHistory/curves"/>
+                      </exposedAreaHistory>
+                    </net.rptools.maptool.model.ExposedAreaMetaData>
+                  </entry>
+                  <entry>
+                    <net.rptools.maptool.model.GUID reference="../../../tokenMap/entry[2]/net.rptools.maptool.model.Token/exposedAreaGUID"/>
+                    <net.rptools.maptool.model.ExposedAreaMetaData>
+                      <exposedAreaHistory>
+                        <curves reference="../../../../../../../entry/net.rptools.maptool.model.Zone/exposedAreaMeta/entry[2]/net.rptools.maptool.model.ExposedAreaMetaData/exposedAreaHistory/curves"/>
+                      </exposedAreaHistory>
+                    </net.rptools.maptool.model.ExposedAreaMetaData>
+                  </entry>
+                </exposedAreaMeta>
+                <tokenOrderedList class="linked-list">
+                  <net.rptools.maptool.model.Token reference="../../tokenMap/entry[4]/net.rptools.maptool.model.Token"/>
+                  <net.rptools.maptool.model.Token reference="../../tokenMap/entry[3]/net.rptools.maptool.model.Token"/>
+                  <net.rptools.maptool.model.Token reference="../../tokenMap/entry/net.rptools.maptool.model.Token"/>
+                  <net.rptools.maptool.model.Token reference="../../tokenMap/entry[2]/net.rptools.maptool.model.Token"/>
+                </tokenOrderedList>
+                <initiativeList>
+                  <tokens/>
+                  <current>-1</current>
+                  <round>-1</round>
+                  <zoneId reference="../../../net.rptools.maptool.model.GUID"/>
+                  <fullUpdate>false</fullUpdate>
+                  <hideNPC>false</hideNPC>
+                </initiativeList>
+                <exposedArea>
+                  <curves reference="../../../../entry/net.rptools.maptool.model.Zone/exposedAreaMeta/entry[2]/net.rptools.maptool.model.ExposedAreaMetaData/exposedAreaHistory/curves"/>
+                </exposedArea>
+                <hasFog>false</hasFog>
+                <fogPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                  <color>-16777216</color>
+                </fogPaint>
+                <topology>
+                  <curves reference="../../../../entry/net.rptools.maptool.model.Zone/exposedAreaMeta/entry[2]/net.rptools.maptool.model.ExposedAreaMetaData/exposedAreaHistory/curves"/>
+                </topology>
+                <backgroundPaint class="net.rptools.maptool.model.drawing.DrawableColorPaint">
+                  <color>-16777216</color>
+                </backgroundPaint>
+                <mapAsset>
+                  <id>80b0b329dfa25f1e25e5d8c38fb882c9</id>
+                </mapAsset>
+                <boardPosition>
+                  <x>0</x>
+                  <y>0</y>
+                </boardPosition>
+                <drawBoard>true</drawBoard>
+                <boardChanged>false</boardChanged>
+                <name>Magnimar</name>
+                <isVisible>true</isVisible>
+                <visionType>OFF</visionType>
                 <height>0</height>
                 <width>0</width>
               </net.rptools.maptool.model.Zone>
@@ -1463,10 +2526,6 @@
       <null/>
     </entry>
     <entry>
-      <net.rptools.lib.MD5Key reference="../../../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry/net.rptools.maptool.model.Zone/tokenMap/entry[4]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
-      <null/>
-    </entry>
-    <entry>
       <net.rptools.lib.MD5Key reference="../../../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry/net.rptools.maptool.model.Zone/tokenMap/entry/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
       <null/>
     </entry>
@@ -1479,18 +2538,26 @@
       <null/>
     </entry>
     <entry>
+      <net.rptools.lib.MD5Key reference="../../../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry/net.rptools.maptool.model.Zone/tokenMap/entry[4]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
+      <null/>
+    </entry>
+    <entry>
+      <net.rptools.lib.MD5Key reference="../../../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry[2]/net.rptools.maptool.model.Zone/mapAsset"/>
+      <null/>
+    </entry>
+    <entry>
       <net.rptools.lib.MD5Key reference="../../../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry/net.rptools.maptool.model.Zone/tokenMap/entry[5]/net.rptools.maptool.model.Token/imageAssetMap/entry/net.rptools.lib.MD5Key"/>
       <null/>
     </entry>
   </assetMap>
-  <currentZoneId reference="../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry/net.rptools.maptool.model.GUID"/>
+  <currentZoneId reference="../campaign/zones/java.util.Collections_-SynchronizedMap/default/m/entry[2]/net.rptools.maptool.model.GUID"/>
   <currentView>
     <oneToOneScale>1.0</oneToOneScale>
-    <scale>0.3905619808481483</scale>
+    <scale>0.8653326122228232</scale>
     <scaleIncrement>0.075</scaleIncrement>
-    <zoomLevel>-13</zoomLevel>
-    <offsetX>280</offsetX>
-    <offsetY>141</offsetY>
+    <zoomLevel>-2</zoomLevel>
+    <offsetX>394</offsetX>
+    <offsetY>-150</offsetY>
     <width>0</width>
     <height>0</height>
     <initialized>false</initialized>
