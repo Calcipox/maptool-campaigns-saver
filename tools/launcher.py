@@ -43,6 +43,7 @@ def main():
     parser.add_argument('-w', '--working-dir', action='store', help='Working directory.', default=working_dir)
     parser.add_argument('-l', '--use-launcher', action='store_true', help='Use maptool launcher.', default=False)
     parser.add_argument('-p', '--push-modifications', action='store_true', help='Push modifications (git push).', default=False)
+    parser.add_argument('-r', '--read-only', action='store_true', help='Read only mode.')
 
     args = parser.parse_args()
 
@@ -86,23 +87,24 @@ def main():
         g_cmd = subprocess.Popen(maptool_cmd, shell=True, cwd=args.maptool_dir)
         g_cmd.wait()
 
-        LOGGER.info("Uncompress file %s in %s", tmp_archive_path + '.cmpgn', campaign_base_dir)
-        zip_file = zipfile.ZipFile(tmp_archive_path + '.cmpgn')
-        zip_file.extractall(campaign_base_dir)
-        zip_file.close()
+        if not args.read_only:
+            LOGGER.info("Uncompress file %s in %s", tmp_archive_path + '.cmpgn', campaign_base_dir)
+            zip_file = zipfile.ZipFile(tmp_archive_path + '.cmpgn')
+            zip_file.extractall(campaign_base_dir)
+            zip_file.close()
 
-        LOGGER.info("Add campaign file to git (git add -A)")
-        g_cmd = subprocess.Popen('git add -A .', shell=True, cwd=campaign_base_dir)
-        g_cmd.wait()
-
-        LOGGER.info("Commit modifications(git commit -m)")
-        g_cmd = subprocess.Popen('git commit -m "Update campaign %s"' % args.campaign, shell=True, cwd=campaign_base_dir)
-        g_cmd.wait()
-        
-        if args.push_modifications:
-            LOGGER.info("Push modifications(git push)")
-            g_cmd = subprocess.Popen('git push', shell=True, cwd=campaign_base_dir)
+            LOGGER.info("Add campaign file to git (git add -A)")
+            g_cmd = subprocess.Popen('git add -A .', shell=True, cwd=campaign_base_dir)
             g_cmd.wait()
+
+            LOGGER.info("Commit modifications(git commit -m)")
+            g_cmd = subprocess.Popen('git commit -m "Update campaign %s"' % args.campaign, shell=True, cwd=campaign_base_dir)
+            g_cmd.wait()
+            
+            if args.push_modifications:
+                LOGGER.info("Push modifications(git push)")
+                g_cmd = subprocess.Popen('git push', shell=True, cwd=campaign_base_dir)
+                g_cmd.wait()
     
     # TODO:  
     # - Launch maptool with campaing file.
