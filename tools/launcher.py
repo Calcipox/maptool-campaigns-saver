@@ -82,7 +82,7 @@ def main():
             LOGGER.error("Cannot find %s jar in %s", jar_name, args.maptool_dir)
             return -1
         LOGGER.debug(maptool_jar) 
-        maptool_cmd = 'java -jar ' + maptool_jar
+        maptool_cmd = 'java -Xms64M -Xmx2048M -Xss4M -jar ' + maptool_jar
         LOGGER.info("Launch maptool with command %s in %s", maptool_cmd, args.maptool_dir)
         g_cmd = subprocess.Popen(maptool_cmd, shell=True, cwd=args.maptool_dir)
         g_cmd.wait()
