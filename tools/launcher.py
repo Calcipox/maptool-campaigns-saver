@@ -36,14 +36,16 @@ def main():
         working_dir = r'c:\tmp'
     
     parser = argparse.ArgumentParser(description='A tool to synchronize maptool campaign files.', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('campaign', action='store', help='Campaign name.')
     parser.add_argument('-m', '--maptool-dir', action='store', help='Maptool directory.', required=True)
+    parser.add_argument('-c', '--campaign', action='store', help='Campaign name.', default='RiseOfTheRunelords')
     parser.add_argument('-g', '--game-name', action='store', help='Game name.', default='pathfinder')
-    parser.add_argument('-v', '--verbose', action='store_true', help='Verbose mode.')
     parser.add_argument('-w', '--working-dir', action='store', help='Working directory.', default=working_dir)
-    parser.add_argument('-l', '--use-launcher', action='store_true', help='Use maptool launcher.', default=False)
+    parser.add_argument('-x', '--max-java-memory', action='store', help='Maximum memory allocation pool for JVM.', default='2046')
+    parser.add_argument('-i', '--initial-java-memory', action='store', help='Initial memory allocation pool for JVM.', default='64')
     parser.add_argument('-p', '--push-modifications', action='store_true', help='Push modifications (git push).', default=False)
     parser.add_argument('-r', '--read-only', action='store_true', help='Read only mode.')
+    parser.add_argument('-l', '--use-launcher', action='store_true', help='Use maptool launcher.', default=False)
+    parser.add_argument('-v', '--verbose', action='store_true', help='Verbose mode.')
 
     args = parser.parse_args()
 
@@ -82,7 +84,7 @@ def main():
             LOGGER.error("Cannot find %s jar in %s", jar_name, args.maptool_dir)
             return -1
         LOGGER.debug(maptool_jar) 
-        maptool_cmd = 'java -Xms64M -Xmx2048M -Xss4M -jar ' + maptool_jar
+        maptool_cmd = 'java -Xms' + args.initial_java_memory + 'M -Xmx' + args.max_java_memory + 'M -Xss4M -jar ' + maptool_jar
         LOGGER.info("Launch maptool with command %s in %s", maptool_cmd, args.maptool_dir)
         g_cmd = subprocess.Popen(maptool_cmd, shell=True, cwd=args.maptool_dir)
         g_cmd.wait()
